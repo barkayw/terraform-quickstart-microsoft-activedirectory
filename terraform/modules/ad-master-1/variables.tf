@@ -31,19 +31,19 @@ variable "VPCCIDR" {
 }
 
 variable "ADServer1InstanceType" {
-  default = "t2.large"
+  default = "m4.large"
 }
 
 variable "ADServer2InstanceType" {
-  default = "t2.large"
+  default = "m4.large"
 }
 
 variable "ADServer1NetBIOSName" {
-  default = "FIREHAWKDC1"
+  default = "ATTDEMODC1"
 }
 
 variable "ADServer2NetBIOSName" {
-  default = "FIREHAWKDC2"
+  default = "ATTDEMODC2"
 }
 
 variable "ADServer1PrivateIP" {
@@ -55,15 +55,15 @@ variable "ADServer2PrivateIP" {
 }
 
 variable "RDGWInstanceType" {
-  default = "t2.large"
+  default = "m4.large"
 }
 
 variable "DomainDNSName" {
-  default = "firehawkcompute.com"
+  default = "attdemo.com"
 }
 
 variable "DomainNetBIOSName" {
-  default = "FIREHAWKCOMPUTE"
+  default = "ATTDEMOCOMPUTE"
 }
 
 variable "NumberOfRDGWHosts" {

@@ -1,7 +1,7 @@
 output DomainAdminUser {
-  value = "${var.DomainAdminUser}"
+  value = var.DomainAdminUser
 }
 
 output RDGWCIDR {
-  value = "${var.RDGWCIDR}"
+  value = var.RDGWCIDR
 }
